@@ -78,7 +78,9 @@ img {
         margin-top: 15rem;
     }
 }
-
+.barra {
+    padding: 4rem;
+}
 @media (min-width: 768px) {
     .barra {
         display: flex;
@@ -171,5 +173,9 @@ img {
     font-size: 2rem;
 }
 
-
-
+.footer {
+    background-color: var(--negro);
+    padding: 3rem 0;
+    margin-top: 4rem;
+    padding-bottom: 3rem;
+}
