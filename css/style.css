@@ -179,3 +179,15 @@ img {
     margin-top: 4rem;
     padding-bottom: 3rem;
 }
+
+/* Sobre Nosotros */
+@media (min-width: 768px) {
+    .sobre-nosotros {
+        display: flex;
+        gap: 2rem;
+    }
+    .sobre-nosotros__imagen,
+    .sobre-nosotros__texto {
+        flex-basis: 50%;
+    }
+}
